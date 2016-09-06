@@ -5,7 +5,7 @@ Descrição: Um aplicativo baseado no nosso site de noticias e downloads sobre o
 1.Carlos Adriano; Pefil: CarlosAdrianno
 2.Bruno Nascimento; Pefil: bruno157
 3.José Luiz; Pefil: Luiz
-4.Ricardo; Pefil:RicardoValter
+4.Ricardo; Pefil:rwaltermenezes02
 
 ##Cronograma 
 Data: 06/09 Atividade
