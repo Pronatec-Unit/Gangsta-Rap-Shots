@@ -11,4 +11,4 @@ Descrição: Um aplicativo baseado no nosso site de noticias e downloads sobre o
 Data: 06/09 Atividade
 
 --------------------- / -------------------
-21/09 - Discrição 
+21/09 - Descrição 
