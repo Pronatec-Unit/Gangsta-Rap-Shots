@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mixtapes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gangstarap.homeagoravai.Mixtapes">
+
+    <Button
+        android:text="G-UNIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Home"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button2home" />
+
+    <Button
+        android:text="Mixtape"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3mixtape"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="115dp" />
+
+    <TextView
+        android:text="mixtape g-unit the lost flash drive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2home"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/captura22"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="BAIXE AQUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView5"
+        android:layout_toEndOf="@+id/button2home"
+        android:layout_marginTop="47dp" />
+
+    <Button
+        android:text="Sobre"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/button3sobre"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_gangsta_rap_shots"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gangstarap.Gangsta_Rap_Shots.GangstaRapShots">
+
+    <Button
+        android:text="mixtape"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button2mixtape"
+        android:layout_width="120dp" />
+
+    <Button
+        android:text="grupo g-unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/roodape"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="home"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonhome"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="120dp" />
+
+    <TextView
+        android:text="NEWS"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/buttonhome"
+        android:layout_alignParentStart="true"
+        android:id="@+id/novasnoticias"
+        android:layout_toStartOf="@+id/button2mixtape"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/background_light" />
+
+    <SearchView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button2mixtape"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/bottom_bar"
+        android:layout_toEndOf="@+id/buttonhome"
+        android:id="@+id/barapesquisa" />
+
+
+    <TextView
+        android:text="50 CENT DOA APARAELHOS PARA CRIANÇAS"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/aparaelhos"
+        android:textAlignment="center"
+        android:layout_below="@+id/novasnoticias"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:text="NOVA MIXTAPE LLOYD BANKS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/banks"
+        android:textStyle="normal|bold"
+
+        android:textAlignment="center"
+        android:background="@android:color/darker_gray"
+        android:layout_above="@+id/lloydbanks"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/captura22"
+        android:id="@+id/lloydbanks"
+        android:layout_above="@+id/roodape"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/captura21"
+        android:id="@+id/cent"
+        android:layout_below="@+id/aparaelhos"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="50 dOA PARALEHOS AUDITIVOS PARA CRIANÇAS CARENTES EM HOSPITAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/aparaelhos"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/cent"
+        android:layout_alignBottom="@+id/cent"
+                android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:text="Nova mixtape do Lloyd Banks , seu primeiro projeto solo de 2016, voltou com tudo no jogo do rap."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/banks"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/roodape"
+        android:layout_toStartOf="@+id/lloydbanks"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:typeface="normal"
+        android:textColor="@android:color/background_dark"
+         />
+
+    <Button
+        android:text="sobre"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSobre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
